@@ -2,7 +2,8 @@ from turtle import Turtle,Screen
 import heroes
 import random as r
 tim= Turtle()
-
+screen= Screen()
+screen.title("Spirograph")
 
 color=["aqua","aquamarine","beige","blue","red","green","seagreen"]
 
@@ -17,5 +18,5 @@ draw(5)
 
 
 
-screen= Screen()
+
 screen.exitonclick()
